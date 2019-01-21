@@ -5,8 +5,8 @@ import (
 )
 
 func main() {
-	start, end, splits := 1, 12, 9
+	start, end, splits := 1, 12, 2
 
-	primes := findPrimes(start, end, splits)
+	primes := findPrimesMaster(start, end, splits)
 	fmt.Printf("Found primes: %v", primes)
 }
